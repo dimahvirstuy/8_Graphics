@@ -9,6 +9,6 @@ color = [ 0, 255, 0 ]
 edges = []
 polygons = []
 transform = new_matrix()
-stack = [new_matrix()]
+stack = new_matrix()
 
 parse_file( 'script', edges, polygons, transform, screen, color, stack )
